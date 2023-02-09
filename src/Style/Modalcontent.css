@@ -1,0 +1,83 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+.overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+.modal .overlay {
+    background: rgba(49,49,49,0.4);
+}
+.modal-content {
+    width: 469px;
+    height: 340px;
+    top: 50%;
+    left: 50%;
+    background: #e5f3fd;
+    padding: 4px 28px;
+    border-radius: 3px;
+}
+
+.close-modal {
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+.modal-header{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 2px;
+}
+.modal-body{
+    border-top: 1px solid black
+}
+.modal-body__form{
+    margin-top: 10px;
+}
+.modal-body__form div{
+    display: flex;
+    padding: 4px;
+}
+.modal-body__form lable{
+    min-width: 100px;
+    font-size: 13px;
+    display: flex;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    /* color: red;
+    content: "*"; */
+}
+/* .modal-body__form lable ::after{
+    color: red;
+    content: "*";
+} */
+
+.modal-body__form input, textarea {
+    flex: 1;
+    background-color: #e5f3fd;
+    border-radius: 3px;
+    border-width: thin;
+}
+.modal-body__form textarea{
+    height: 100px;
+    resize: none;
+}
+.modal-body__form input:hover{
+    background: aliceblue;
+}
+.modal-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}

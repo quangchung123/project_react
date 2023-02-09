@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+#wrapper{
+    height: 100%;
+    background-image: url("http://27.72.147.196:28001/images/background.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#authlogin-block{
+    width: 470px;
+    height: 390px;
+    background-color: #ffff;
+}
+.logo-heading, .authlogin-btn, .authlogin_footer{
+    text-align: center;
+}
+.logo-heading img{
+    width: 70px;
+    height: 70px;
+    padding: 12px 12px;
+}
+.authlogin-container{
+    margin-top: 16px;
+    padding: 0 40px;
+}
+.authlogin__label{
+    float: left;
+    font-size: 12px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+}
+.authlogin-icon{
+    position: relative;
+    left: 32%;
+    display: inline-block;
+}z
+.authlogin-icon img{
+    width: 29px;
+    height: 29px;
+}
+.authlogin-btn button{
+    color: #fff;
+    background-color: #333547;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+.login_error{
+    position: absolute;
+    font-size: 12px;
+    color: red;
+}
